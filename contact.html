@@ -1,60 +1,46 @@
-<!doctype <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 
-<html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact Me</title>
+    <title>Week 1 HW_Recommended Assignment_ContactPage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Contact Me</h1>
+    <header>
+        <h1>David Cejas</h1>
+    
+        <nav>
+            <p>About</p>
+            <p>Portfolio</p>
+            <p>Contact</p>
+        </nav>
+    
+    </header>
 
     <div class="container">
 
-        <section id="message">
-            <p>Interested in working together? Fill out the form below with some info about your project and I'll get back to you as soon as I can. Please allow a couple days for me to respond.</p>
-        </section>
-
-        <form action="/actino_page.php">
-
-            <section id="inputFieldsLeft">
+        <container id="inputBox">
+            <h1>Contact</h1>
+            <hr>
+            <form action="index.html">
                 <form>
-                    Name:<br>
-                        <input type="text" name="name"><br><br>
-                    Website:<br>
-                        <input type="text" name="website">
-                </form>
-            </section>
-
-            <section id="inputFieldsRight">
-                <form>
-                    eMail:<br>
-                        <input type="text" name="email"><br><br>
-                    Timeline:<br>
-                        <input type="text" name="timeline">    
-                    </form>
-            </section>
-
-            <section id="inputFieldsBelow">
-                <form>
-                    SUBJECT:<br>
-                        <input type="text" name="subject" style="width:60%;" padding:"30%;"><br><br>
-                    Tell me about your project:<br>
+                    Name<br>
+                        <input type="text" name="name" placeholder="John Smith"><br><br>
+                    Email<br>
+                        <input type="text" name="email" placeholder="example@gmail.com"><br><br>
+                    Message<br>
                         <input type="text" name="subject" style="height:200px;width:100%;"><br><br>
-                </form>
-            </section>
-
-            <section id="submit">
-                <form>
                     <input type="submit" value="Submit" style="heigt:100px; width:200px;">
                 </form>
-            </section>
-
-        </form>
-
+            </form>
+        </container>
     </div>
+
+    <footer>
+        <p>© Copyright 2018 David Cejas</p>
+    </footer>
 </body>
 </html>
