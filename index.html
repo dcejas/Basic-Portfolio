@@ -1,53 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>HW1_MainIndex_Recommended</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>About | David Cejas</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <header>
-    <h1>David Cejas</h1>
-
-    <nav>
-      <p>About</p>
-      <p>Portfolio</p>
-      <p>Contact</p>
-    </nav>
-
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">David Cejas</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <div class="container">
-
-    <section id="main-bio">
-
+  <div id="main-container" class="container">
+    <section class="main-section">
       <h1>About Me</h1>
 
-      <img id="bioImage" src="assets/images/profile.jpg" style="width:250px; height:250px" alt="David Cejas Pic">
-      
-      <p>Write a paragraph or two about yourself. Make it fun, show your personality!</p>
+      <img src="assets/images/profile.jpg" class="auth-image" alt="David Cejas Pic">
+
+      <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+
+      <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+
     </section>
 
-    <section id="ConnectWithMe">
-      <h2>Connect with Me</h2>
-      <!--style="list-style-type:none" -->
-      <ul id="SocialIcons">
-        <li><img id="linkedin" src="assets/images/linkedin_icon.png" style="width:50px; height:50px;" alt="LinkedInIcon" a href="www.linkedin.com/in/david-cejas-61a65924"></a></li>
-        <li><img id="GitHub" src="assets/images/github_icon.png" style="width:50px; height:50px;" alt="GitHubIcon" a href="https://github.com/dcejas"></a></li>
-        <li><img id="Stack" src="assets/images/stack_icon.png" style="width:50px; height:50px;" alt="StackIcon" a href="https://stackoverflow.com/users/9238343/david-cejas?tab=profile"></a></li>
-      </ul>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
     </section>
   </div>
 
   <footer>
-    <p>© Copyright 2018 David Cejas</p>
+    <div class="container">
+      Copyright 2018 - David Cejas&copy; 
+    </div>
   </footer>
-
 </body>
 
 </html>
